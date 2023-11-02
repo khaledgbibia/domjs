@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM CHECKPOINT</title>
+    <script
+      src="https://kit.fontawesome.com/b9a0719e01.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .shoppingCart {
+        display: flex;
+      }
+
+      .like {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shoppingCart">
+      <div class="cart1">
+        <button class="delete-btn">X</button>
+        <i class="fas fa-heart"></i>
+        <h3>PHONE 1 ==> <span id="s1">100 </span> dt</h3>
+        <img src="/img 1.jpg" style="height: 200px" />
+        <div>
+          <button id="p1" onclick="plusClick(this.id)">+</button>
+          <p id="q1">0</p>
+          <button id="m1" onclick="minusClick(this.id)">-</button>
+          <p>TOTAL = <span id="t1">0</span></p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="cart2">
+        <button class="delete-btn">X</button>
+        <i class="fas fa-heart"></i>
+        <h3>PHONE 1 ==> <span id="s2">200 </span> dt</h3>
+        <img src="/img 1.jpg" style="height: 200px" />
+        <div>
+          <button id="p2" onclick="plusClick(this.id)">+</button>
+          <p id="q2">0</p>
+          <button id="m2" onclick="minusClick(this.id)">-</button>
+          <p>TOTAL = <span id="t2">0</span></p>
+        </div>
+      </div>
+      <hr />
+
+      <div class="cart3">
+        <button class="delete-btn">X</button>
+        <i class="fas fa-heart"></i>
+        <h3>PHONE 1 ==> <span id="s3">300 </span> dt</h3>
+        <img src="/img 1.jpg" style="height: 200px" />
+        <div>
+          <button id="p3" onclick="plusClick(this.id)">+</button>
+          <p id="q3">0</p>
+          <button id="m3" onclick="minusClick(this.id)">-</button>
+          <p>TOTAL = <span id="t3">0</span></p>
+        </div>
+      </div>
+    </div>
+    <center>
+      <p>TOTAL PRICE === <span id="totalP">0</span></p>
+    </center>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
